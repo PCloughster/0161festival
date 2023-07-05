@@ -1,0 +1,136 @@
+#bgvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+body{
+    background-image: url("images/bgimage1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1.numbers{
+    color: #e31c24;
+    text-align: center;
+    font-size:3vw;
+}
+button.active{
+    background-color: #e31c24;
+}
+p.numbers{
+    color: white;
+    display: inline;
+}
+h1{
+    color: white; 
+    font-size: 3.5em; 
+    text-align: center;
+}
+i.bi{
+    color: #e31c24;
+}
+/* a.btn-danger{
+    background-color: #e31c24;
+
+} */
+p.nt{
+    color: white;
+    background-color: #e31c24;
+    text-align: center;
+}
+footer{
+    background-color: white;
+    bottom:0;
+    margin-top: auto;
+}
+::selection {
+    background: #e31c24;
+    color: white;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hoverable {
+    position: relative;
+    width: 100%;
+}
+  
+.hoverimage {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(227, 28, 36, .5);
+}
+
+.hoverable:hover .overlay {
+    opacity: 1;
+}
+
+.imagetext {
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.imagebio{
+    font-size: 1vw; 
+    color: white; 
+    text-align: center;
+}
+.imagetitle{
+    font-size: 1.5vw;
+    top: 20px;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.imagemed{
+    font-size: 1.5vw;
+    top: 90%;
+    
+}
+@media (max-width: 990px) {
+    .imagebio{
+        font-size: 3vw; 
+        color: white; 
+        text-align: center;
+    }
+    .imagetitle{
+        font-size: 3vw;
+        top: 20px;
+        text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+    .imagemed{
+        font-size: 3vw;
+        top: 90%;
+    }
+    h1.numbers{
+        color: #e31c24;
+        text-align: center;
+        font-size:5vw;
+    }
+ }
