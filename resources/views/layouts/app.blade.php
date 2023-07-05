@@ -37,7 +37,7 @@
 						</ul>
 					</div>
 						
-					<a class="btn btn-outline-danger tickets" href="https://www.eventbrite.co.uk/e/0161-music-festival-2023-4th-7th-may-tickets-453709767127?aff=ebdsoporgprofile" role="button">Tickets</a>
+					<a class="btn btn-outline-danger tickets" href="https://www.eventbrite.co.uk/e/0161-festival-2024-9th-12th-may-tickets-633394950347" role="button">Tickets</a>
 					
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 						<span class="navbar-toggler-icon"></span>
