@@ -26,7 +26,7 @@
 				<div class="col-md-6">
 					<div class="container">
 						<h1 style="color: #e31c24; font-size: 3rem; text-align: center;" id="countdown"></h1>
-						<h1 style="color: white; font-size: 3rem; text-align: center;">30.04.2023 - 09.05.2023</h1>
+						<h1 style="color: white; font-size: 3rem; text-align: center;">09.05.2024 - 12.05.2024</h1>
 						<div class="row align-items-center justify-content-center align-center pb-5">
 							<a class="btn btn-danger tickets" href="https://www.eventbrite.co.uk/e/0161-festival-2024-9th-12th-may-tickets-633394950347" role="button" style="font-size: 3rem;">GET TICKETS</a>
 						</div>
