@@ -9,7 +9,7 @@
         @endif
                 <div class="hoverable">
                 <div class="imagetext imagetitle">{{$band->name}}</div>
-                    <img src="{{$band->photo}}" alt="Avatar" class="hoverimage">
+                    <img src="storage/{{$band->photo}}" alt="Avatar" class="hoverimage">
                         
                     <div class="overlay">
                         <div class="imagetext imagetitle">{{$band->name}}</div>

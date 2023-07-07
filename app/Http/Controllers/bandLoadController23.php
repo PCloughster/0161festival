@@ -22,7 +22,7 @@ class bandLoadController23 extends Controller
         $sunNM = $allBands->where('headliner', false)->where('day', 'sunday');
 
         // compact('thursHL', 'thursNM', 'friHL'. 'friNM', 'satHL', 'satNM', 'sunHL', 'sunNM');
-        return view('festival23', compact('thursHL', 'thursNM', 'friHL', 'friNM', 'satHL', 'satNM', 'sunHL', 'sunNM'));
+        return view('festival', compact('thursHL', 'thursNM', 'friHL', 'friNM', 'satHL', 'satNM', 'sunHL', 'sunNM'));
     }
 
 }
