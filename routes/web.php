@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/festival', function () {
-    return view('festivalu');
+    return view('festival');
 });
 // Route::get('/festival', 'App\Http\Controllers\bandLoadController@index');
 Route::get('/festival23', 'App\Http\Controllers\bandLoadController@index');

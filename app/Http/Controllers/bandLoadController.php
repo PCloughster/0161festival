@@ -11,7 +11,8 @@ use App\Models\Band;
 class bandLoadController extends Controller
 {
     public function index() {
-        $allBands = Band::all();
+        $Bands = Band::all();
+        $allBands = $Bands->where('year', 2024);
         $thursHL = $allBands->where('headliner', true)->where('day', 'thursday'); 
         $thursNM = $allBands->where('headliner', false)->where('day', 'thursday'); 
         $friHL = $allBands->where('headliner', true)->where('day', 'friday'); 
