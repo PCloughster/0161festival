@@ -12,7 +12,7 @@ class bandLoadController23 extends Controller
 {
     public function index() {
         $allBands = Band::all();
-        $allBands = $allBands->where('year', '=', 2023);
+//        $allBands = $allBands->where('year', '=', 2023);
         $thursHL = $allBands->where('headliner', true)->where('day', 'thursday'); 
         $thursNM = $allBands->where('headliner', false)->where('day', 'thursday'); 
         $friHL = $allBands->where('headliner', true)->where('day', 'friday'); 
